@@ -1,0 +1,12 @@
+# ClusterForge 运行 + 测试关键依赖（pinned）
+# 核心依赖（必备，零下载可跑 demo）
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+# 可选 SOTA 后端（装不上 / 编译失败不影响系统，benchmark 自动跳过）
+hdbscan>=0.8.29
+umap-learn>=0.5.3
+scikit-network>=0.11.0
+# 开发 / 测试
+pytest>=7.0
+ruff>=0.4
